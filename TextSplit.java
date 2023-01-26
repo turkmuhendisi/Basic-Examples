@@ -1,4 +1,3 @@
-package ExamQuestions;
 
 /**
  * Windows işletim sisteminde dosya tam adları noktayla ayrılmış iki bölümden oluşur.
@@ -18,7 +17,7 @@ public class TextSplit {
         Scanner input = new Scanner(System.in);
         System.out.println("Dosya adını uzantısı ile birlikte giriniz.");
 
-        String dosyaAdi = input.nextLine(); // Tüm satırı almak için .nextLine ifadesini kullandık. Çünkü .next ifadesi yalnızca tek kelime tutmaktadır.
+        String dosyaAdi = input.nextLine(); // Tüm satırı almak için .nextLine ifadesini kullandık. .next ifadesi yalnızca tek kelime tutmaktadır.
 
         int len = dosyaAdi.length(); // En son index i almak için değişkenin tuttuğu metin uzunluğunu alıyoruz.
         int index = dosyaAdi.lastIndexOf("."); // Metnin en sonundan başlayarak ilk noktayı arar ve bulduğu index i "index" değişkenine atar.
