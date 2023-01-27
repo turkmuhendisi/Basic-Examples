@@ -15,7 +15,7 @@ public class DontUseTempVariable {
 
         b = a + b; // En küçük değere iki değerin toplamını atıyoruz.
 
-        a = b - a; // Yeni 'b' değerinden 'a' değerini çıkararak 'b' nin eski değerinin 'a' ya atamış oluyoruz.
+        a = b - a; // Yeni 'b' değerinden 'a' değerini çıkararak 'b' nin eski değerini 'a' ya atamış oluyoruz.
         b = b - a; // Yeni 'b' değerinden yeni 'a' değerini çıkardığımızda ise 'a' nın ilk baştaki değerini 'b' ye atıyoruz.
 
         System.out.println("Yeni a değeri: " + a);
