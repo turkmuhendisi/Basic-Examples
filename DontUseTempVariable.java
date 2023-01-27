@@ -1,4 +1,7 @@
-package ExamQuestions;
+/**
+* Sadece a ve b değişkenlerini kullanarak yeni bir üçüncü değişken kullanmadan
+* a ve b değerlerini birbirine atayın.
+*/
 
 public class DontUseTempVariable {
     public static void main(String[] args) {
