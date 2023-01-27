@@ -18,6 +18,7 @@ public class TextSplit {
         System.out.println("Dosya adını uzantısı ile birlikte giriniz.");
 
         String dosyaAdi = input.nextLine(); // Tüm satırı almak için .nextLine ifadesini kullandık. .next ifadesi yalnızca tek kelime tutmaktadır.
+        // Kelimeler arasında boşluk karakteri olduğu zaman boşluktan sonrasını .next ifadesi almaz.
 
         int len = dosyaAdi.length(); // En son index i almak için değişkenin tuttuğu metin uzunluğunu alıyoruz.
         int index = dosyaAdi.lastIndexOf("."); // Metnin en sonundan başlayarak ilk noktayı arar ve bulduğu index i "index" değişkenine atar.
